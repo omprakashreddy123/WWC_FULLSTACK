@@ -4,14 +4,14 @@ public class Event {
 
     private Integer id;
     private String name;
-    private String location;
+    private String course;
 
     public Event() {}
 
-    public Event(Integer id, String name, String location) {
+    public Event(Integer id, String name, String course) {
         this.id = id;
         this.name = name;
-        this.location = location;
+        this.course = course;
     }
 
     public Integer getId() {
@@ -31,10 +31,11 @@ public class Event {
     }
 
     public String getLocation() {
-        return location;
+        return course;
     }
 
     public void setLocation(String location) {
         this.location = location;
     }
+
 }
