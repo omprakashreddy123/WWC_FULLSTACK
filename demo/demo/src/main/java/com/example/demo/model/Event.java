@@ -30,12 +30,13 @@ public class Event {
         this.name = name;
     }
 
-    public String getLocation() {
+    public String getCourse() {
         return course;
     }
 
-    public void setLocation(String location) {
-        this.location = location;
+    public void setCourse(String course) {
+        this.course = course;
     }
 
 }
+
